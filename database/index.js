@@ -8,4 +8,15 @@ const connection = mysql.createConnection({
 
 connection.connect();
 
-module.exports.connection = connection;
+const getItems = (callback) => {
+  let queryString = 'SELECT * FROM items WHERE id <= 5';
+  connection.query(queryString, (err, data) => {
+    if (err) {
+      callback(err);
+      return;
+    }
+    callback(null, data);
+  })
+}
+
+module.exports.getItems = getItems;
