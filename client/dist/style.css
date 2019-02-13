@@ -1,0 +1,34 @@
+body {
+  font-family: arial, sans-serif;
+  color: #393939;
+}
+
+.recently-viewed-section {
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.viewed-header {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.item-box {
+  display: inline-block;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.item-box:hover {
+  cursor: pointer;
+}
+
+.item-brand {
+  margin: 10px 0;
+  font-size: 13px;
+}
+
+.item-price {
+  font-size: 13px;
+  font-weight: bold;
+}
