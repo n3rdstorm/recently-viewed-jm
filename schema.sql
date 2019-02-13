@@ -24,7 +24,7 @@ INSERT INTO items (name, brand, price, front_pic, back_pic) VALUES \
 INSERT INTO items (name, brand, price, front_pic, back_pic) VALUES \
   ("Luxe Faux Fur Coat", "Topshop", "$180.00", "https://s3-us-west-1.amazonaws.com/recently-viewed-items/5a.jpeg", "https://s3-us-west-1.amazonaws.com/recently-viewed-items/5b.jpeg");
 INSERT INTO items (name, brand, price, front_pic, back_pic) VALUES \
-  ("Belmont Mock Neck Sweater", "MADEWELL", "$69.99", "https://s3-us-west-1.amazonaws.com/recently-viewed-items/6a.jpeg", "https://s3-us-west-1.amazonaws.com/recently-viewed-items/6b.jpeg");
+  ("Belmont Mock Neck Sweater", "Madewell", "$69.99", "https://s3-us-west-1.amazonaws.com/recently-viewed-items/6a.jpeg", "https://s3-us-west-1.amazonaws.com/recently-viewed-items/6b.jpeg");
 INSERT INTO items (name, brand, price, front_pic, back_pic) VALUES \
   ("721 Ripped High Waist Skinny Jeans", "LEVI'S®", "$78.40", "https://s3-us-west-1.amazonaws.com/recently-viewed-items/7a.jpeg", "https://s3-us-west-1.amazonaws.com/recently-viewed-items/7b.jpeg");
 INSERT INTO items (name, brand, price, front_pic, back_pic) VALUES \
