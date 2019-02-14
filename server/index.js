@@ -11,7 +11,7 @@ const PORT = 3001;
 app.use(express.static(path.join(__dirname, '../client/dist')));
 app.use(bodyParser.json());
 
-app.get('/recentlyviewed', (req, res) => {
+app.get('/recently-viewed', (req, res) => {
   getItems((err, items) => {
     if (err) {
       res.status(400).send();
