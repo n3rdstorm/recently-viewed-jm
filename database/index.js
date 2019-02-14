@@ -9,7 +9,8 @@ const connection = mysql.createConnection({
 connection.connect();
 
 const getItems = (callback) => {
-  let queryString = 'SELECT * FROM items WHERE id <= 5';
+  // let queryString = 'SELECT * FROM items WHERE id <= 6';
+  let queryString = 'SELECT * FROM items ORDER BY RAND() LIMIT 6';
   connection.query(queryString, (err, data) => {
     if (err) {
       callback(err);

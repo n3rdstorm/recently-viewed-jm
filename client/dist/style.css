@@ -1,6 +1,7 @@
 body {
   font-family: arial, sans-serif;
   color: #393939;
+  margin: 0;
 }
 
 .recently-viewed-section {
@@ -17,6 +18,7 @@ body {
   display: inline-block;
   text-align: center;
   padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .item-box:hover {
