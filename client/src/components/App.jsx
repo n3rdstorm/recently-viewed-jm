@@ -3,15 +3,27 @@ import RecentlyViewed from './RecentlyViewed.jsx';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 
-import dummyData from '../../../dummyData.js';
+import getRecentItems from '../lib/getAjax.js';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      items: dummyData // array of objects
+      items: [] // array of objects
     }
+  }
+
+  componentDidMount() {
+    getRecentItems((err, data) => {
+      if (err) {
+        console.log(err);
+        return;
+      }
+      this.setState({
+        items: data
+      })
+    })
   }
 
   render() {
