@@ -4,6 +4,7 @@ import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 
 import getRecentItems from '../lib/getAjax.js';
+import $ from 'jquery';
 
 class App extends React.Component {
   constructor(props) {
@@ -15,11 +16,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    getRecentItems((err, data) => {
-      if (err) {
-        console.log(err);
-        return;
-      }
+    $.get('http://localhost:3001/recently-viewed', (data) => {
       this.setState({
         items: data
       })
