@@ -1,5 +1,5 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: 'Mukta', sans-serif;
   color: #393939;
   margin: 0 20px;
 }
@@ -79,6 +79,44 @@ h3 {
 }
 
 .gift-content-container {
+/* --- FOOTER --- */
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #f9f9f9;
+  font-size: 13px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.footer-nav li a,
+.footer-nav li {
+  margin-right: 10px;
+  color: #999;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer-content li a {
+  color: #393939;
+  text-decoration: none;
+}
+
+.footer-content a:hover,
+.footer-nav a:hover {
+  border-bottom: 2px solid #969393;
+}
+
+.row, .footer-nav, .social-links {
   display: flex;
   flex-direction: row;
 }
@@ -101,4 +139,10 @@ h3 {
 
 p {
   line-height: 18.2px;
+.apps {
+  margin-top: 10px;
+}
+
+.social-links {
+  padding: 15px;
 }

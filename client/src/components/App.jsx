@@ -30,7 +30,7 @@ class App extends React.Component {
         {/* <Header /> */}
         <Gift />
         <RecentlyViewed items={this.state.items}/>
-        {/* <Footer /> */}
+        <Footer />
       </div>
 
     )
