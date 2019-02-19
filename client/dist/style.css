@@ -1,11 +1,10 @@
 body {
   font-family: arial, sans-serif;
   color: #393939;
-  margin: 0;
+  margin: 0 20px;
 }
 
 .recently-viewed-section {
-  padding: 0 30px;
   margin: 0 auto;
 }
 
@@ -33,4 +32,73 @@ body {
 .item-price {
   font-size: 13px;
   font-weight: bold;
+}
+
+/* --- GIFT SECTION ---  */
+
+.gift-section {
+  padding-top: 32px;
+  padding-bottom: 35px;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+svg {
+  height: 24;
+  width: 22;
+}
+
+.nui-icon-large-gift-0 {
+  fill: none;
+  stroke: #393939;
+  stroke-miterlimit: 10;
+}
+
+.nui-icon-large-gift-1 {
+  stroke-width: 2;
+}
+
+.nui-icon-large-gift-1,
+.nui-icon-large-gift-2 {
+  fill: none;
+  stroke: #393939;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+h2 {
+  letter-spacing: .6px;
+  display: inline-block;
+  padding-left: 15.5px;
+  font-size: 20px;
+}
+
+h3 {
+  letter-spacing: .5px;
+  font-size: 15px;
+}
+
+.gift-content-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.gift-content-item {
+  width: 220px;
+  padding-right: 24.5px;
+  font-size: 13px;
+}
+
+.gift-content-item p a {
+  color: #393939;
+  text-decoration: none;
+  border-bottom: 1px solid #393939;
+}
+
+.gift-content-item p a:hover {
+  border-bottom: 2px solid #393939;
+}
+
+p {
+  line-height: 18.2px;
 }
