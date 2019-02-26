@@ -1,12 +1,14 @@
 const mysql = require('mysql');
 
 const connection = mysql.createConnection({
+  host: '172.17.0.3',
+  port: 3306,
   user: 'root',
-  password: '',
+  password: 'password',
   database: 'recently_viewed'
 })
 
-connection.connect();
+// connection.connect();
 
 const getItems = (callback) => {
   // let queryString = 'SELECT * FROM items WHERE id <= 6';

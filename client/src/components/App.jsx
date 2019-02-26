@@ -15,7 +15,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    $.get('http://localhost:3001/recently-viewed', (data) => {
+    $.get('/recently-viewed/1', (data) => {
       this.setState({
         items: data
       })
